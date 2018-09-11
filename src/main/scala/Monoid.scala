@@ -18,8 +18,8 @@ object ImplicitTest {
       if (xs.isEmpty) m.unit
       else m.add(xs.head, sum(xs.tail))
 
-   def main(args: Array[String]): Unit = {
-      println(sum(List(1, 2, 3)))       // uses IntMonoid implicitly
-      println(sum(List("a", "b", "c"))) // uses StringMonoid implicitly
-   }
+//   def main(args: Array[String]): Unit = {
+//      println(sum(List(1, 2, 3)))       // uses IntMonoid implicitly
+//      println(sum(List("a", "b", "c"))) // uses StringMonoid implicitly
+//   }
 }
